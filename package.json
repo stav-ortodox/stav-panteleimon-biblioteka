@@ -1,0 +1,27 @@
+{
+  "name": "stav-panteleimon-biblioteka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp-webserver": "^0.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stav-ortodox/stav-panteleimon-biblioteka.git"
+  },
+  "author": "stav-ortodox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stav-ortodox/stav-panteleimon-biblioteka/issues"
+  },
+  "homepage": "https://github.com/stav-ortodox/stav-panteleimon-biblioteka#readme"
+}
