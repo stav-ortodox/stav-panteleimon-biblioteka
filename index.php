@@ -43,7 +43,7 @@ page_title ('Наши издания');
 							<hr>
 						</div> <!-- col-lg-6 col-md-12 -->
 						<!-- /1блок издания -->	
-
+						<div class="mb-5"></div>
 						<!-- разделение между блоками -->
 
 						<!-- 2 блок издания -->
@@ -71,7 +71,7 @@ page_title ('Наши издания');
 						<!-- /2блок издания -->
 
 
-<!-- 3 блок издания -->
+						<!-- 3 блок издания -->
 						<div class='col-lg-4 col-md-12'>
 							<div class="prew-block text-center">	
 								<h4>
@@ -94,7 +94,7 @@ page_title ('Наши издания');
 							<hr>
 						</div> <!-- col-lg-4 col-md-12 -->
 						<!-- /3блок издания -->
-<!-- 2 блок издания -->
+						<!-- 2 блок издания -->
 						<div class='col-lg-4 col-md-12'>
 							<div class="prew-block text-center">	
 								<h4>
