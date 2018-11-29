@@ -62,24 +62,24 @@ while ($row = mysqli_fetch_array($result)) {
 
 				echo "
 						<div class='col-lg-4 col-md-12 mb-5'>
-						<div class='no_error' style=''.$color."'>".$no_error."<br>".$edit."<br>'.$delete.'</div>
+						<div class='no_error' style=".$color.">".$no_error."<br>".$edit."<br>".$delete."</div>
 							<div class='prew-img-block view owerlay rounded z-depth-1-half mb-4'>
 								<h4 class='mb-3 text-center'>
 									".$row["block_name"]."
 								</h4>
 
-								<a href="'/pages/biblioteka/p_publishing_page.php?id=".$row["id"]."'">
+								<a href='/pages/biblioteka/p_publishing_page.php?id=".$row["id"].'">
 									<img class="img-fluid" src=/".$row["block_image"]." alt=''>
 								</a>
 								<p class="text-center p-2">".$row["block_description"]."</p>
 							</div>
-						</div> <!-- col-lg-6 col-md-12 -->
+						</div>
 					</div>";
 }
 
-echo "
-</div>
-";
+	echo "
+	</div>
+	";
 
 
 
