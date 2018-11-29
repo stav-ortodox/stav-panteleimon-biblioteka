@@ -163,9 +163,9 @@ function page_title ($page_title) {
 	echo
 	<<<EOD
 	<div class="container">
-	<div class="page_title">
-			<h1>$page_title</h1>
-	</div>
+		<div class="page_title">
+				<h1>$page_title</h1>
+		</div>
 	</div>
 EOD;
 }
@@ -174,11 +174,30 @@ EOD;
 
 function get_footer () {
 echo <<<EOD
-	<div class="footer">
-
+	<footer class="page-footer text-center font-small mdb-color darken-2 mt-4 wow fadeIn">
+	<div class="pt-4">
+		<a href="#" class="btn btn-outline-white">
+			Bootstrap <i class="fa fa-download"></i>
+		</a>
+		<a href="#" class="btn btn-outline-white">
+			Обучение вёрстке <i class="fa fa-graduation-cap"></i>
+		</a>
 	</div>
 
-	</body>
+	<hr class="my-4">
+
+	<div class="pb-4">
+		<a href="#"><i class="fa fa-instagram mr-3"></i></a>
+		<a href="#"><i class="fa fa-vk mr-3"></i></a>
+		<a href="#"><i class="fa fa-facebook mr-3"></i></a>
+	</div>
+	<div class="footer-copyright py-3">
+		Больничный храм святого Великомученика и Целителя Пантелеимона 
+г. Ставрополь
+	</div>
+</footer>
+
+</body>
 </html>
 EOD;
 }
