@@ -13,11 +13,10 @@ page_title ('Издательство нашего храма');?>
 	<div class="container-fluid">
 		<section class="wow fadeIn">
 			<div class="row">
-							<?php $select_query = sprintf("SELECT * FROM publishing_blocks");
-							echo '
 				<div class="col-10">
-					<div class="row text-left"> ';
-											$result = mysqli_query($link, $select_query);
+					<div class="row text-left">
+							<?php $select_query = sprintf("SELECT * FROM publishing_blocks");
+										$result = mysqli_query($link, $select_query);
 											while ($row = mysqli_fetch_array($result)) {
 											 // выводим данные
 														if ($_SESSION['id'] == 1) {  #Для админа
@@ -50,10 +49,10 @@ page_title ('Издательство нашего храма');?>
 								</a>
 								<p class='text-center p-2'>".$row["block_description"]."</p>
 							</div>
-						</div>
-					</div>";}
-									echo "
-				</div>";
+						</div>";}?>
+					</div> <!-- row text-left -->
+				</div> <!-- col-10 -->
+									<?php
 								if ($_SESSION['id'] == 1)
 								echo	'
 				<div class="col-2">
