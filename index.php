@@ -39,131 +39,56 @@ page_title ('Наши издания');
 									Там над продолжил по всей злых переписали безопасную пояс, сих сбить рыбными свою коварных всеми алфавит, повстречался большой имеет, он залетают.</p>
 							</div> <!-- view owerlay rounded z-depth-1-half mb-3 -->
 							
-							
-
 							<hr>
 						</div> <!-- col-lg-6 col-md-12 -->
 						<!-- /1блок издания -->	
 						
 						<!-- разделение между блоками -->
-
-						<!-- 2 блок издания -->
+						<!-- 1 блок издания -->
 						<div class='col-lg-4 col-md-12 mb-5'>
-							<div class="prew-block text-center">	
-								<h4>
-									".$row["block_name"]."
-								</h4>
-
-							</div>
+							
 							<!-- <div class='news-data no_error mb-3' style='".$color."'>".$no_error."<br>".$edit."<br>".$delete."
 							</div> --> <!-- news-data no_error -->
 
-							<div class="view owerlay rounded z-depth-1-half mb-3"> <!-- строка с блоком издания -->
+							<div class="prew-img-block view owerlay rounded z-depth-1-half mb-4"> <!-- строка с блоком издания -->
+								<h4 class='mb-3 text-center'>
+									".$row["block_name"]."
+								</h4>
 								<img src="http://suvenirzavod.ru/upload/iblock/24c/24c4400392f0583a704f1d3dfb6b2bbc.jpg" alt="" class="img-fluid">
 								<a href="#">
 									
 								</a>
+								<p class="text-center p-2">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. 
+									О вершину инициал рукопись домах! Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. 
+									Там над продолжил по всей злых переписали безопасную пояс, сих сбить рыбными свою коварных всеми алфавит, повстречался большой имеет, он залетают.</p>
 							</div> <!-- view owerlay rounded z-depth-1-half mb-3 -->
 							
-							<p class="text-center">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. О вершину инициал рукопись домах! Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Там над продолжил по всей злых переписали безопасную пояс, сих сбить рыбными свою коварных всеми алфавит, повстречался большой имеет, он залетают.</p>
-
 							<hr>
 						</div> <!-- col-lg-6 col-md-12 -->
-						<!-- /2блок издания -->
-
-
-						<!-- 3 блок издания -->
+						<!-- /1блок издания -->	
+						<!-- 1 блок издания -->
 						<div class='col-lg-4 col-md-12 mb-5'>
-							<div class="prew-block text-center">	
-								<h4>
-									".$row["block_name"]."
-								</h4>
-								
-							</div>
+							
 							<!-- <div class='news-data no_error mb-3' style='".$color."'>".$no_error."<br>".$edit."<br>".$delete."
 							</div> --> <!-- news-data no_error -->
 
-							<div class="view owerlay rounded z-depth-1-half mb-3"> <!-- строка с блоком издания -->
+							<div class="prew-img-block view owerlay rounded z-depth-1-half mb-4"> <!-- строка с блоком издания -->
+								<h4 class='mb-3 text-center'>
+									".$row["block_name"]."
+								</h4>
 								<img src="http://suvenirzavod.ru/upload/iblock/24c/24c4400392f0583a704f1d3dfb6b2bbc.jpg" alt="" class="img-fluid">
 								<a href="#">
 									
 								</a>
+								<p class="text-center p-2">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. 
+									О вершину инициал рукопись домах! Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. 
+									Там над продолжил по всей злых переписали безопасную пояс, сих сбить рыбными свою коварных всеми алфавит, повстречался большой имеет, он залетают.</p>
 							</div> <!-- view owerlay rounded z-depth-1-half mb-3 -->
 							
-							<p class="text-center">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. О вершину инициал рукопись домах! Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Там над продолжил по всей злых переписали безопасную пояс, сих сбить рыбными свою коварных всеми алфавит, повстречался большой имеет, он залетают.</p>
-
-							<hr>
-						</div> <!-- col-lg-4 col-md-12 -->
-						<!-- /3блок издания -->
-						<!-- 2 блок издания -->
-						<div class='col-lg-4 col-md-12 mb-5'>
-							<div class="prew-block text-center">	
-								<h4>
-									".$row["block_name"]."
-								</h4>
-								
-							</div>
-							<!-- <div class='news-data no_error mb-3' style='".$color."'>".$no_error."<br>".$edit."<br>".$delete."
-							</div> --> <!-- news-data no_error -->
-
-							<div class="view owerlay rounded z-depth-1-half mb-3"> <!-- строка с блоком издания -->
-								<img src="http://suvenirzavod.ru/upload/iblock/24c/24c4400392f0583a704f1d3dfb6b2bbc.jpg" alt="" class="img-fluid">
-								<a href="#">
-									
-								</a>
-							</div> <!-- view owerlay rounded z-depth-1-half mb-3 -->
-							
-							<p class="text-center">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. О вершину инициал рукопись домах! Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Там над продолжил по всей злых переписали безопасную пояс, сих сбить рыбными свою коварных всеми алфавит, повстречался большой имеет, он залетают.</p>
-
 							<hr>
 						</div> <!-- col-lg-6 col-md-12 -->
-						<!-- /2блок издания -->
-						<!-- 2 блок издания -->
-						<div class='col-lg-4 col-md-12 mb-5'>
-							<div class="prew-block text-center">	
-								<h4>
-									".$row["block_name"]."
-								</h4>
-								
-							</div>
-							<!-- <div class='news-data no_error mb-3' style='".$color."'>".$no_error."<br>".$edit."<br>".$delete."
-							</div> --> <!-- news-data no_error -->
+						<!-- /1блок издания -->	
 
-							<div class="view owerlay rounded z-depth-1-half mb-3"> <!-- строка с блоком издания -->
-								<img src="http://suvenirzavod.ru/upload/iblock/24c/24c4400392f0583a704f1d3dfb6b2bbc.jpg" alt="" class="img-fluid">
-								<a href="#">
-									
-								</a>
-							</div> <!-- view owerlay rounded z-depth-1-half mb-3 -->
-							
-							<p class="text-center">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. О вершину инициал рукопись домах! Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Там над продолжил по всей злых переписали безопасную пояс, сих сбить рыбными свою коварных всеми алфавит, повстречался большой имеет, он залетают.</p>
-
-							<hr>
-						</div> <!-- col-lg-6 col-md-12 -->
-						<!-- /2блок издания -->
-						<!-- 2 блок издания -->
-						<div class='col-lg-4 col-md-12 mb-5'>
-							<div class="prew-block text-center">	
-								<h4>
-									".$row["block_name"]."
-								</h4>
-								
-							</div>
-							<!-- <div class='news-data no_error mb-3' style='".$color."'>".$no_error."<br>".$edit."<br>".$delete."
-							</div> --> <!-- news-data no_error -->
-
-							<div class="view owerlay rounded z-depth-1-half mb-3"> <!-- строка с блоком издания -->
-								<img src="http://suvenirzavod.ru/upload/iblock/24c/24c4400392f0583a704f1d3dfb6b2bbc.jpg" alt="" class="img-fluid">
-								<a href="#">
-									
-								</a>
-							</div> <!-- view owerlay rounded z-depth-1-half mb-3 -->
-							
-							<p class="text-center">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. О вершину инициал рукопись домах! Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Там над продолжил по всей злых переписали безопасную пояс, сих сбить рыбными свою коварных всеми алфавит, повстречался большой имеет, он залетают.</p>
-
-							<hr>
-						</div> <!-- col-lg-6 col-md-12 -->
-						<!-- /2блок издания -->
 					</div> <!-- row text-left -->	
 				</div> <!-- col-10 -->
 
