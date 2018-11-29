@@ -455,6 +455,25 @@ h1, h2, h3, h5, h6 {
 	font-family: 'Zanesennyj';
 }*/
 
+.prew-img-block {
+	background: rgb(255, 255, 255);
+	min-height: 600px;
+	max-height: 600px;
+	min-width: 400px;
+	max-width: 400px;
+}
+
+.prew-img-block img {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.prew-img-block h4 {
+	border: 30px solid #40c4c8;
+    border-image: url(http://gmaindia.org/Images/shadowLine.png) 30 round round;
+}
+
+
 .prew-block hr {
 	border: none; /* Убираем границу для браузера Firefox */
 	color: #E47F50; /* Цвет линии для остальных браузеров */
