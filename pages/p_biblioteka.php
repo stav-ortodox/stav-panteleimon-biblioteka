@@ -39,7 +39,7 @@ page_title ('Издательство нашего храма');?>
 																		}
 																	} echo "
 						<div class='col-lg-4 col-md-12 mb-5'>
-							<div class='no_error' style=".$color.">".$no_error."<br>".$edit."<br>".$delete."</div>
+							<div class='no_error' style='".$color."'>".$no_error."<br>".$edit."<br>".$delete."</div>
 							<div class='prew-img-block view owerlay rounded z-depth-1-half mb-4'>
 								<h4 class='mb-3 text-center'>
 									".$row["block_name"]."
