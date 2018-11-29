@@ -1,13 +1,13 @@
-	<?php
-	session_start();
-	require_once $_SERVER['DOCUMENT_ROOT'].'/scripts/s_app_config.php';
-	require_once $_SERVER['DOCUMENT_ROOT'].'/scripts/s_functions.php';
+<?php
+session_start();
+require_once $_SERVER['DOCUMENT_ROOT'].'/scripts/s_app_config.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/scripts/s_functions.php';
 
-	get_header_site ('Главная', 'Электронная библиотека храма святого Великомученика и Целителя Пантелеимона <br> г. Ставрополь');
-	get_menu ();
+get_header_site ('Главная', 'Электронная библиотека храма святого Великомученика и Целителя Пантелеимона <br> г. Ставрополь');
+get_menu ();
 
-	page_title ('Наши издания');
-	?>
+page_title ('Наши издания');
+?>
 
 
 <main class="mt-5 pt-5">
@@ -26,20 +26,20 @@
 							<!-- <div class='news-data no_error mb-3' style='".$color."'>".$no_error."<br>".$edit."<br>".$delete."
 		   				</div> --> <!-- news-data no_error -->
 
-							<div class="prew-img-block view owerlay rounded z-depth-1-half mb-4"> <!-- строка с блоком издания -->
-								<h4 class='mb-3 text-center'>
-									".$row["block_name"]."
-								</h4>
-								<img src="http://suvenirzavod.ru/upload/iblock/24c/24c4400392f0583a704f1d3dfb6b2bbc.jpg" alt="" class="img-fluid">
-								<a href="#">
+<div class="prew-img-block view owerlay rounded z-depth-1-half mb-4"> <!-- строка с блоком издания -->
+<h4 class='mb-3 text-center'>
+".$row["block_name"]."
+</h4>
+<img src="http://suvenirzavod.ru/upload/iblock/24c/24c4400392f0583a704f1d3dfb6b2bbc.jpg" alt="" class="img-fluid">
+<a href="#">
 
-									</a>
-								<p class="text-center p-2">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
-									О вершину инициал рукопись домах! Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
-									Там над продолжил по всей злых переписали безопасную пояс, сих сбить рыбными свою коварных всеми алфавит, повстречался большой имеет, он залетают.</p>
-							</div> <!-- view owerlay rounded z-depth-1-half mb-3 -->
-						</div> <!-- col-lg-6 col-md-12 -->
-						<!-- /1блок издания -->
+</a>
+<p class="text-center p-2">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
+О вершину инициал рукопись домах! Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
+Там над продолжил по всей злых переписали безопасную пояс, сих сбить рыбными свою коварных всеми алфавит, повстречался большой имеет, он залетают.</p>
+</div> <!-- view owerlay rounded z-depth-1-half mb-3 -->
+</div> <!-- col-lg-6 col-md-12 -->
+<!-- /1блок издания -->
 
 
 					</div> <!-- row text-left -->

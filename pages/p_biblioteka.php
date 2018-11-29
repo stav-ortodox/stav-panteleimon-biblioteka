@@ -68,10 +68,10 @@ while ($row = mysqli_fetch_array($result)) {
 									".$row["block_name"]."
 								</h4>
 
-								<a href='/pages/biblioteka/p_publishing_page.php?id=".$row["id"].'">
-									<img class="img-fluid" src=/".$row["block_image"]." alt=''>
+								<a href='/pages/biblioteka/p_publishing_page.php?id=".$row["id"]."'>
+									<img class='img-fluid' src=/".$row["block_image"]." alt=''>
 								</a>
-								<p class="text-center p-2">".$row["block_description"]."</p>
+								<p class='text-center p-2'>".$row["block_description"]."</p>
 							</div>
 						</div>
 					</div>";
