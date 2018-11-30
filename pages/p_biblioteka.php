@@ -36,12 +36,17 @@ page_title ('Издательство нашего храма');?>
 																		}
 														if ($_SESSION['id'] == null or $_SESSION['id'] > 1) {
 														$hidden = $row['block_hidden'];
+														if(strlen($row["block_description"])>"120") $str = "...<br><a href=........Ссылка......=".$news['id'].">подробнее</a></p>"; else $str = "";
+														$descr_cut = mb_substr(strip_tags($row["block_description"]), 0, 120, 'utf-8');
+														// Если новость длинная, то выводим троеточие...
+														
+														      
 																		if ($hidden == 0) {
 																			$color = "display: none";}
 																		else {
 																		 continue(1);
 																		}
-																	} echo "
+																	} echo "						
 						<div class='col-lg-6 col-md-12 mb-5'>
 							<div class='no_error' style='".$color." ".$border."'><strong>".$no_error."</strong><br>".$edit."<br>".$delete."</div>
 							<div class='prew-img-block view owerlay rounded z-depth-1-half mb-4'>
@@ -51,7 +56,7 @@ page_title ('Издательство нашего храма');?>
 								<a href='/pages/biblioteka/p_publishing_page.php?id=".$row["id"]."'>
 									<img class='img-fluid' src=/".$row["block_image"]." alt=''>
 								</a>
-								<p class='text-center p-2'>".$row["block_description"]."</p>
+								<p class='text-center p-2'>".$descr_cut.$str."</p>
 							</div>
 						</div>";}?>
 					</div> <!-- row text-left -->
@@ -76,5 +81,10 @@ page_title ('Издательство нашего храма');?>
 
 
 <?php
+
+
+
+ 
+
 get_footer ();
 ?>
