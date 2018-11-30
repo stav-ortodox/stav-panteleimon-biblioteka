@@ -12,7 +12,6 @@ page_title ('Добавление нового блока издания');
 
 get_open_form ("/pages/admins/s_admin_add_new_publishing_block.php", "POST", "Введите данные", '');?>
 
-
 		<label for="block_name">Имя нового блока издания:</label>
 		<input type="text" name="block_name" >
 
@@ -26,10 +25,7 @@ get_open_form ("/pages/admins/s_admin_add_new_publishing_block.php", "POST", "В
 		<label for="block_image">Лицевое изображение:</label>
 		<input type="file" name="block_image" id="block_image">
 
-
-<?php get_close_form ();
-
-
+<?php 
+get_close_form ();
 get_footer ();
-
 ?>

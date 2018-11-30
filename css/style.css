@@ -1,3 +1,4 @@
+
 @font-face {
 	font-family: 'Izhitsa Regular';
 	src: url('Izhitsa.eot');
@@ -26,11 +27,11 @@ a:hover {
 }
 
 /* внешние границы таблицы серого цвета толщиной 1px */
-table {border: 1px solid black;} 
+table {border: 1px solid black;}
 /* границы ячеек первого ряда таблицы */
 th {border: 1px solid black;}
 /* границы ячеек тела таблицы */
-td {border: 1px solid black;} 
+td {border: 1px solid black;}
 /* сделает ширину таблицы равной ширине блока контейнера, в котором она находится */
 table {width: 100%;}
 /* задаст фиксированную ширину для таблицы */
@@ -91,18 +92,18 @@ h1, h2, h3, h5, h6 {
 	padding: 0;
 	width: 30px;
 	height: 20px;
-} 
+}
 
 .checkbox {
 	display: inline-block;
-	
+
 }
 
 .checkbox input[type=checkbox] {
 	display: inline-block;
 	margin: 0;
 	padding: 0;
-} 
+}
 
 .checkbox p {
 	display: inline-block;
@@ -133,12 +134,13 @@ h1, h2, h3, h5, h6 {
 
 .no_error {
 	padding: 0;
-	margin: 0;
 	text-align: center;
 	font-size: 14px;
 	color: red;
-	border: solid 1px #E47F50;
 	margin: 0 auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
 	border-radius: 5px;
 }
 
@@ -185,7 +187,7 @@ h1, h2, h3, h5, h6 {
 	justify-content: center;
 	border: solid 1px lime;
 	margin-bottom: 20px;
-	
+
 	height: 500px;
 	/*width: 200px*/
 }
@@ -260,7 +262,7 @@ h1, h2, h3, h5, h6 {
 
 .header_title {
 	text-align: center;
-	
+
 }
 
 .header_title h4 {
@@ -283,8 +285,8 @@ h1, h2, h3, h5, h6 {
 }
 
 .header_subtitle {
-	font-family: 'Old Standard TT', serif; 
-	margin-top: 10px; 
+	font-family: 'Old Standard TT', serif;
+	margin-top: 10px;
 	margin-bottom: 0px;
 	padding: 0px 20px 20px 20px;
 	text-align: center;
@@ -456,21 +458,30 @@ h1, h2, h3, h5, h6 {
 }*/
 
 .prew-img-block {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
 	background: rgb(255, 255, 255);
-	min-height: 600px;
-	max-height: 600px;
-	min-width: 400px;
-	max-width: 400px;
+	align-items: center;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .prew-img-block img {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	max-width: 60%;
+	margin: 0 auto;
 }
 
 .prew-img-block h4 {
 	border: 30px solid #40c4c8;
-    border-image: url(http://gmaindia.org/Images/shadowLine.png) 30 round round;
+  border-image: url(http://gmaindia.org/Images/shadowLine.png) 30 round round;
 }
 
 
@@ -484,11 +495,11 @@ h1, h2, h3, h5, h6 {
 }
 
 /*.prew-block:hover {
-	background: #333232; 
+	background: #333232;
 }
 
 .prew-block:hover img {
-	
+
 }*/
 
 /*.prew-block a {
@@ -574,7 +585,7 @@ h1, h2, h3, h5, h6 {
 	height: 450px;
 	width: 300px;
 	border: solid 5px black;
-	margin-bottom: 10px; 
+	margin-bottom: 10px;
 }
 
 #otrok_semeon3 {
@@ -595,9 +606,41 @@ h1, h2, h3, h5, h6 {
 @media print {
 	.page-break {
 		page-break-inside: avoid;
- 	} 
-} 
+ 	}
+}
 
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+/*// Малые девайсы («ландшафтные телефоны», >= 576px)*/
+@media (min-width: 576px) {
+.prew-img-block {
+	background: red;
+}
+}
+
+
+
+/*// Средние девайсы («таблетки», >= 768px)*/
+@media (min-width: 768px) {
+.prew-img-block {
+	background: blue;
+	
+}
+
+
+}
+
+
+/*// Большие девайсы (десктопы, >= 992px)*/
+@media (min-width: 992px) {
+.prew-img-block {
+	background: white;
+	
+}
+
+
+}
+
 

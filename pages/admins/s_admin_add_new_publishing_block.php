@@ -48,12 +48,7 @@ mysqli_query($link, $insert_sql)
   or die(mysqli_connect_error($link));
 
 
-
 // Redirect the user to the page that displays user information
 header("Location: /pages/p_biblioteka.php");
 exit();
-
-
-
-
 ?>
