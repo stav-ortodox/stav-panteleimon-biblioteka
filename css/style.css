@@ -1,3 +1,4 @@
+
 @font-face {
 	font-family: 'Izhitsa Regular';
 	src: url('Izhitsa.eot');
@@ -133,12 +134,13 @@ h1, h2, h3, h5, h6 {
 
 .no_error {
 	padding: 0;
-	margin: 0;
 	text-align: center;
 	font-size: 14px;
 	color: red;
-	border: solid 1px #E47F50;
 	margin: 0 auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
 	border-radius: 5px;
 }
 
@@ -456,21 +458,30 @@ h1, h2, h3, h5, h6 {
 }*/
 
 .prew-img-block {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
 	background: rgb(255, 255, 255);
-	min-height: 600px;
-	max-height: 600px;
-	min-width: 400px;
-	max-width: 400px;
+	align-items: center;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .prew-img-block img {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	max-width: 60%;
+	margin: 0 auto;
 }
 
 .prew-img-block h4 {
 	border: 30px solid #40c4c8;
-    border-image: url(http://gmaindia.org/Images/shadowLine.png) 30 round round;
+  border-image: url(http://gmaindia.org/Images/shadowLine.png) 30 round round;
 }
 
 
@@ -600,3 +611,36 @@ h1, h2, h3, h5, h6 {
 
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+/*// Малые девайсы («ландшафтные телефоны», >= 576px)*/
+@media (min-width: 576px) {
+.prew-img-block {
+	background: red;
+}
+}
+
+
+
+/*// Средние девайсы («таблетки», >= 768px)*/
+@media (min-width: 768px) {
+.prew-img-block {
+	background: blue;
+	
+}
+
+
+}
+
+
+/*// Большие девайсы (десктопы, >= 992px)*/
+@media (min-width: 992px) {
+.prew-img-block {
+	background: white;
+	
+}
+
+
+}
+
+

@@ -14,23 +14,24 @@ function get_header_site ($title_br, $header_subtitle) {
 	<meta name="description" content="Hover Effect Ideas: Inspiration for subtle hover effects" />
 	<meta name="keywords" content="hover effect, inspiration, grid, thumbnail, transition, subtle, web design" />
 	<meta name="author" content="Stav_Orthodox" />
-	
+
 
 	<!-- Font Awesome -->
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
- <!-- Bootstrap core CSS -->
- <link href="/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap core CSS -->
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
 
- <!-- Material Design Bootstrap -->
- <link href="/css/mdb.min.css" rel="stylesheet">
- 
- <!-- Your custom styles (optional) -->
- <link href="/css/style.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link href="/css/mdb.min.css" rel="stylesheet">
+
+	<!-- Your custom styles (optional) -->
+	<link href="/css/style.css" rel="stylesheet">
 	
 	<!-- My css -->
 	<link rel='stylesheet' href='/css/test.css'>
 	<link rel='stylesheet' href='/css/bootstrap-grid.min.css'>
+	<link rel="stylesheet" href="/css/media_xl.css">
 
 	<!-- Fonts -->
 	<link href="http://allfont.ru/allfont.css?fonts=ds-russia-demo" rel="stylesheet" type="text/css">

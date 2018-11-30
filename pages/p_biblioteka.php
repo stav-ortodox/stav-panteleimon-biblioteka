@@ -10,7 +10,7 @@ get_menu ();
 page_title ('Издательство нашего храма');?>
 
 <main class="mt-5 pt-5">
-	<div class="container-fluid">
+	<div class="container">
 		<section class="wow fadeIn">
 			<div class="row">
 				<div class="col-10">
@@ -25,11 +25,15 @@ page_title ('Издательство нашего храма');?>
 														$delete = "<a href= /pages/biblioteka/s_delete_publisher_block.php?id=".$row["id"].">Удалить блок</a>";
 																		if ($hidden == 0) {
 																			$no_error = 'блок открыт';
-																			$color = "color: green";}
+																			$color = "color: green;";
+																			$border = "border: solid 1px green;";
+																		}
 																		if ($hidden == 1) {
 																			$no_error = 'блок скрыт';
-																			$color = "color: red";
-																		}}
+																			$color = "color: red;";
+																			$border = "border: solid 1px #E47F50;";
+																		}
+																		}
 														if ($_SESSION['id'] == null or $_SESSION['id'] > 1) {
 														$hidden = $row['block_hidden'];
 																		if ($hidden == 0) {
@@ -38,10 +42,10 @@ page_title ('Издательство нашего храма');?>
 																		 continue(1);
 																		}
 																	} echo "
-						<div class='col-lg-4 col-md-12 mb-5'>
-							<div class='no_error' style='".$color."'>".$no_error."<br>".$edit."<br>".$delete."</div>
+						<div class='col-lg-6 col-md-12 mb-5'>
+							<div class='no_error' style='".$color." ".$border."'><strong>".$no_error."</strong><br>".$edit."<br>".$delete."</div>
 							<div class='prew-img-block view owerlay rounded z-depth-1-half mb-4'>
-								<h4 class='mb-3 text-center'>
+								<h4 class='text-center'>
 									".$row["block_name"]."
 								</h4>
 								<a href='/pages/biblioteka/p_publishing_page.php?id=".$row["id"]."'>
